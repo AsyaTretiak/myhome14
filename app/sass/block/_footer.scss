@@ -1,0 +1,131 @@
+.footer {
+    background: $bg;
+    margin: 0 -20px;
+}
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-contacts_border {
+    border-top: 4px solid $sep;
+    margin: 0 20px;
+    padding-bottom: 100px;
+}
+.foot__adress {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: $main;
+}
+.foot__map {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $accent-a;
+}
+.foot__map_indent {
+    padding-bottom: 20px;
+}
+.foot__tel {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: $main-a;
+}
+.foot__mail {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: $accent-a;
+}
+.foot__map:hover {
+    color: $accent;
+}
+.foot__tel:hover {
+    color: $accent;
+}
+.foot__mail:hover {
+    color: $accent;
+}
+.foot__politic {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: $text;
+}
+.foot__fb {
+    fill: $accent-a;
+}
+.foot__fb:hover {
+    fill: $accent;
+}
+.foot__adress_indent {
+    padding: 20px 0 10px;
+}
+.foot__tel_indent {
+    padding: 23px 0 10px;
+}
+.foot__mail_indent {
+    padding: 10px 0;
+}
+.foot__politic_indent {
+    padding: 10px 0;
+}
+.footer-contacts__top,
+.footer-contacts__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 991px) {
+    .footer-contacts {
+        padding-top: 10px;
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr auto;
+        text-align: left;
+    }
+    .footer-contacts_border {
+        margin: 0;
+    }
+    .footer-contacts__top,
+    .footer-contacts__info {
+        flex-direction: row;
+        padding-top: 18px;
+    }
+    .foot__politic {
+        grid-row: 2/ -3;
+        grid-column: 2 / -1;
+    }
+    .foot__fb:hover {
+        fill: $accent;
+    }
+    .foot__adress_indent {
+        padding: 0;
+    }
+    .foot__tel_indent {
+        padding: 0 0 0 33px;
+    }
+    .foot__mail_indent {
+        padding: 0 0 0 30px;
+    }
+    .foot__politic_indent {
+        padding: 1px;
+    }
+    .foot__map_indent {
+        padding-bottom: 0;
+        padding-left: 40px;
+    }
+}

@@ -1,0 +1,79 @@
+.form-inner {
+    width: 375px;
+    height: 576px;
+    padding: 15px 20px;
+    position: relative;
+    background: $bg;
+}
+.form__close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.form__close:active {
+    background: $text;
+    border-radius: 12px;
+    width: 32px;
+    height: 32px;
+}
+.form__text-h3 {
+    font-size: 22px;
+    line-height: 26px;
+    color: $accent;
+}
+.form__text-h3_indent {
+    padding-bottom: 23px;
+}
+.form__title-h3_color {
+    color: $text;
+    padding-bottom: 20px;
+}
+.form__input {
+    width: 100%;
+    padding: 10px;
+    background: $white;
+    font-size: 18px;
+    line-height: 26px;
+    color: $text;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    resize: none;
+}
+.form__textarea {
+    margin: 10px 0 20px;
+}
+.form-button_indent {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+.form__input-tel:invalid {
+    border: 2px solid $accent;
+}
+
+@media (min-width: 991px) {
+    .form {
+        background: $main;
+        opacity: 0.7;
+        width: 1360px;
+        height: 1089px;
+    }
+    .form-inner {
+        transform: translate(0, 34%);
+        margin: 0 auto;
+        border-radius: 12px;
+        width: 527px;
+        height: 576px;
+        padding-top: 21px;
+    }
+    .form__text-h3 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .form__close {
+        position: absolute;
+        top: 14px;
+        right: 16px;
+    }
+}

@@ -1,0 +1,54 @@
+.fb-about:hover {
+    color: $accent-a-a;
+}
+.about-tel_fs-color {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: $text;
+    text-decoration: none;
+}
+.about-tel_fs-color:hover {
+    color: $accent;
+}
+.contacts-indent-about {
+    align-items: center;
+    padding-top: 30px;
+}
+.header-tel-pg4_fs-color {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: $text;
+    text-decoration: none;
+}
+.menu__list-submenu-pg4_color:hover {
+    color: $accent;
+}
+.menu__pg4_active {
+    color: $accent;
+    border-bottom: 2px solid $accent;
+}
+
+@media (min-width: 991px) {
+    .about-adress_fs-color {
+        font-size: 16px;
+        line-height: 19px;
+        color: $text;
+    }
+    .submenu-about_color {
+        color: $accent-a;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        margin-left: 19px;
+    }
+    .submenu-about_color-active {
+        color: $accent;
+        border-bottom: 2px solid $accent;
+    }
+    .submenu-about_color:hover {
+        color: $accent;
+    }
+}

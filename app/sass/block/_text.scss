@@ -1,0 +1,58 @@
+.text-h1 {
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 45px;
+    text-align: center;
+    color: $white;
+}
+.text-h2 {
+    font-size: 32px;
+    line-height: 38px;
+}
+.title-h2 {
+    font-size: 30px;
+    line-height: 38px;
+}
+.text-h3 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.text-h3-C {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $main;
+}
+.text-h4 {
+    font-size: 18px;
+    line-height: 21px;
+}
+.title-h3 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.indent {
+    padding-top: 18px;
+}
+.text-h4_color {
+    color: $accent-a;
+    text-decoration: none;
+}
+p,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}

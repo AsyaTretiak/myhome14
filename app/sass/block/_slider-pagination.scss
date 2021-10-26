@@ -1,0 +1,16 @@
+.slider-pagination {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    background: $accent-a;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    opacity: 0.2;
+    border: none;
+    margin: 0 7px;
+}
+.btn_active {
+    opacity: 1;
+}

@@ -1,0 +1,44 @@
+.about-more_indent {
+    padding-top: 20px;
+}
+.about-more-item__text {
+    font-size: 18px;
+    line-height: 26px;
+    color: black;
+}
+.about-more-item__title {
+    font-size: 32px;
+    line-height: 38px;
+    color: $accent;
+}
+.about-more-item__title_indent {
+    padding-top: 8px;
+}
+
+@media (min-width: 991px) {
+    .about-more_indent {
+        display: flex;
+        padding-top: 80px;
+        max-width: 1089px;
+        margin: 0 auto;
+    }
+    .about-more-item__text {
+        font-size: 21px;
+        line-height: 30px;
+        color: black;
+        max-width: 641px;
+    }
+    .about-more-item__title {
+        max-width: 1061px;
+        font-size: 42px;
+        line-height: 50px;
+        color: $accent;
+    }
+    .about-more-item__text_indent {
+        max-width: 641px;
+    }
+    .about-more-item__title_indent {
+        padding-top: 2px;
+        margin-left: 35px;
+    }
+}

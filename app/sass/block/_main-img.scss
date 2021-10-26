@@ -1,0 +1,50 @@
+.main-img__bg {
+    display: none;
+}
+.main-img {
+    height: 566px;
+    background-image: url("../img/main-bg.svg");
+    background-repeat: no-repeat;
+    background-position: left -120px top 6px;
+    background-size: 430px 687px;
+    position: relative;
+}
+.main-img__title {
+    max-width: 615px;
+    position: absolute;
+    left: -4%;
+    top: 25%;
+}
+.scroll {
+    position: absolute;
+    left: 149px;
+    top: 473px;
+}
+
+@media (min-width: 991px) {
+    .main-img__bg {
+        display: block;
+        transform: translate(315px, 44px);
+        height: 100%;
+        padding-bottom: 100px;
+    }
+    .bgimg1-main {
+        transform: translate(364px, 165px);
+    }
+    .main-img__title {
+        max-width: 615px;
+        position: absolute;
+        left: 26%;
+        top: 31%;
+    }
+    .scroll {
+        position: absolute;
+        left: 638px;
+        top: 603px;
+    }
+    .main-img {
+        position: relative;
+        background-position: left 361px top 71px;
+        height: 100%;
+    }
+}

@@ -1,0 +1,110 @@
+.section-publications {
+    margin: 0 -20px;
+    background: $bg;
+}
+.publications_indent {
+    padding: 22px 20px 38px;
+}
+.publications__title {
+    font-size: 32px;
+    line-height: 38px;
+    color: $accent;
+    padding-bottom: 26px;
+}
+.publications__item {
+    display: flex;
+    flex-direction: column;
+    background: $white;
+    border-radius: 8px;
+    margin-bottom: 29px;
+}
+.publications-info {
+    padding: 20px;
+}
+.publications-info__text {
+    display: none;
+}
+.publications-item__img {
+    width: 335px;
+    height: 100%;
+}
+.publications-item__h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: $accent-a;
+}
+.publications-item__h3_indent {
+    padding-bottom: 5px;
+}
+.publications-item__date {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $text;
+}
+.publications__item:nth-child(n+3) {
+    display: none;
+}
+.publications__box_indent {
+    padding-bottom: 5px;
+}
+.publications-button_indent {
+    position: relative;
+    left: 40px;
+    text-decoration: none;
+}
+
+@media (min-width: 991px) {
+    .publications__box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .publications__item:nth-child(n+3) {
+        display: block;
+    }
+    .publications-item__h3 {
+        max-width: 372px;
+    }
+    .publications-item__h3_indent {
+        padding-bottom: 8px;
+    }
+    .publications_indent {
+        padding: 40px 0 64px;
+    }
+    .publications__title {
+        font-weight: bold;
+        font-size: 42px;
+        line-height: 50px;
+        padding-bottom: 38px;
+    }
+    .publications-item__date {
+        margin-bottom: 5px;
+    }
+    .publications-info__line {
+        margin-top: 20px;
+        border-top: 4px solid $sep;
+    }
+    .publications-info__text {
+        display: block;
+        font-size: 16px;
+        line-height: 22px;
+        color: black;
+        max-width: 372px;
+        padding-top: 18px;
+    }
+    .publications-item__img {
+        width: 414px;
+        height: 233px;
+        object-fit: cover;
+    }
+    .publications-button_indent {
+        position: relative;
+        top: 8px;
+        padding-left: 495px;
+        text-align: center;
+    }
+}
